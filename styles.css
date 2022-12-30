@@ -3,7 +3,7 @@ body {
     flex: 1;
     flex-direction: column;
     background-color: #1f2937;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -13,6 +13,9 @@ header {
     color: #E5E7EB;
     flex-grow: 1;
     gap: 24px;
+    padding-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 a {
@@ -29,21 +32,37 @@ a {
     color: #F9FAF8;
     display: flex;
     flex: 1;
-    padding: 40px;
+    padding-bottom: 80px;
+    padding-top: 100px;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
-.hero-left {
-    padding: 40px;
+.h-title {
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 400px;
 }
 
 button {
     background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
 .alt {
     font-size: 18px;
     padding: 0;
     margin: 0;
+    width: 400px;
 }
 
 .logo {
@@ -75,13 +94,19 @@ button {
     flex: 1;
     justify-content: center;
     padding: 12px;
-    gap: 18px
+    gap: 36px
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
 }
 
 .imglist {
-    display: flex;
-    justify-content: center;
-    margin: 0;
+    margin-right: 0;
     padding: 0;
 }
 
@@ -96,7 +121,8 @@ button {
     flex-direction: column;
     background-color: #E5E7EB;
     align-items: center;
-    
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .text {
@@ -104,26 +130,31 @@ button {
     font-style: italic;
     color: #1F2937;
     width: 800px;
+    margin-bottom: 0;
 }
 
 .author {
-
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: 400px;
+    margin-top: 0;
 }
 
 .signupsection {
     background-color: white;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 .signupbox {
     display: flex;
-    flex: 1;
     background-color: #3882f6;
     height: 150px;
     width: 1000px;
-    margin: 75px 400px;
     gap: 250px;
+    margin: 80px 0 80px 0;
     border-radius: 15px;
     align-items: center;
     justify-content: center;
@@ -139,6 +170,27 @@ button {
     color: #F9FAF8;
     font-size: 16px;
     margin: 0;
+}
+
+.lowerbutton {
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    height: 80px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 20px;
 }
 
 
